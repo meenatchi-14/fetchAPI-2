@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display:grid ;
+    grid-template-columns:repeat(auto-fit, minmax(18rem, 1fr));
+    background-color: aqua;
+}
+div{
+    gap: 0.5rem;
+    padding: 0.5px;
+   margin: 1rem;
+   background-color: hwb(16 55% 7%);
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.card-text{
+    font-size: large;
+    font-weight: bold;
+    color:hsl(0, 17%, 94%);
+    background-color: rgb(239, 127, 224);
+    border: 2px solid hsl(0, 87%, 48%);
+    padding:0.5rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+   margin: 10px;
+    border-radius: 1rem;
+}
+.card-img{
+    width:5rem;
+    height: 10rem;
+    margin:2px;
+}
+.sub{
+    border: 2px solid hsl(0, 87%, 48%);
+    background-color: hsl(11, 9%, 66%);
+    border-radius: 1rem;
+    color:white;
+   
+}
+.text{
+    font-size: large;
+    font-weight: bold;
+}
+.name{
+    color: hsl(235, 81%, 50%);
+    font-size: large;
+    font-weight: bold;
+}
